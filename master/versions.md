@@ -4,9 +4,7 @@
 
 #### **Updated**
 
-* Support for Pocket version `RC-0.10.4`
-  * This version will automatically update your pocket config files to be compatible with the new release, including updating seeds and setting `client_session_sync_allowance` to its default value of `1`.
-* POKT Snapshot updated to work with POKT new endpoint.
+* Updated Node Launcher and a number of chains.
 
 
 
