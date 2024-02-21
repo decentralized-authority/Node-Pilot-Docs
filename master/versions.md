@@ -1,4 +1,36 @@
-# Versions
+# Versions / Updates
+
+## v0.18.21 - 2024-1-28
+
+#### **Updated**
+
+* Support for Pocket version `RC-0.10.4`
+  * This version will automatically update your pocket config files to be compatible with the new release, including updating seeds and setting `client_session_sync_allowance` to its default value of `1`.
+* POKT Snapshot updated to work with POKT new endpoint.
+
+
+
+#### **Update Process:**
+
+1\. Shutdown NP:
+
+![](<../.gitbook/assets/image (1).png>)
+
+2\. Update command:
+
+```bash
+cd ~ && wget -O np https://builds.decentralizedauthority.com/node-pilot/v0.18.21/np && chmod +x ./np
+```
+
+3\. Start Node Pilot as daemon:
+
+```bash
+./np start -d
+```
+
+4\. Type in your Node Pilot password
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## v0.18.17 - 2023-7-20
 
